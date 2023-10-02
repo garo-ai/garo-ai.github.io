@@ -3,9 +3,4 @@ title: garo.ai
 ---
 # Welcome to garo.ai
 
-## What?
-
-## Why?
-
-## Who?
-
+We are a small team of AI enthusiasts, building both open source and commercial projects, as well as teaching others how to develop AI applications.
