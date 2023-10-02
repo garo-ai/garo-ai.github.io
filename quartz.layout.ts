@@ -29,7 +29,7 @@ export const defaultContentPageLayout: PageLayout = {
       title: 'Our work',
       filterFn: (node) => {
         // set containing names of everything you want to filter out
-        const omit = new Set(["who"])
+        const omit = new Set(["garo"])
         return !omit.has(node.name.toLowerCase())
       },
       folderDefaultState: "open",
