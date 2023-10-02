@@ -8,6 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/garo-ai",
+      Discord: "https://discord.gg/7TJ6b74pzD"
     },
   }),
 }
@@ -30,7 +31,8 @@ export const defaultContentPageLayout: PageLayout = {
         // set containing names of everything you want to filter out
         const omit = new Set(["who"])
         return !omit.has(node.name.toLowerCase())
-      }
+      },
+      folderDefaultState: "open",
     })),
   ],
   right: [
