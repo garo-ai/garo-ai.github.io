@@ -1,5 +1,5 @@
 ---
-title: Who is Garo?
+title: who
 ---
 # Hi
 

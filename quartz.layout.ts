@@ -24,7 +24,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     //Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.DesktopOnly(Component.Explorer({title: 'Our work'})),
+    Component.DesktopOnly(Component.Explorer({
+      title: 'Our work',
+      filterFn: (node) => {
+        // set containing names of everything you want to filter out
+        const omit = new Set(["who"])
+        return !omit.has(node.name.toLowerCase())
+      }
+    })),
   ],
   right: [
     //Component.Darkmode(),
