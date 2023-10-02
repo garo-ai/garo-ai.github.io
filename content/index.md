@@ -1,8 +1,11 @@
 ---
-title: Welcome to garo.ai
+title: garo.ai
 ---
+# Welcome to garo.ai
 
+## What?
 
-Hi!
+## Why?
 
-![[media/garo.jpeg]]
+## Who?
+
